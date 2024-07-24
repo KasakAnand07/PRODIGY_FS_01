@@ -1,0 +1,56 @@
+/* SignUp.css */
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./assets/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #d1e6d7;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8e49;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #639671;
+} */
+
+.content {
+    width: 80%; /* Adjust width as needed */
+    margin-top: 90px;
+    margin-left: 110px; /* Center the container */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Optional border */
+    background-color: #f9f9f9; /* Optional background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
